@@ -1,0 +1,30 @@
+.Flex_container {
+  display: flex;
+  flex-flow: column wrap;
+  width: 100%;
+}
+
+.Search_bar {
+  /* height: 20vh; */
+  /* display: flex; */
+  /* background-color: #f8bccb; */
+  /* flex-flow: column wrap;
+  justify-content: flex-start;
+  align-items: flex-start; */
+
+  height: 15vh;
+  padding: 24px;
+}
+
+.Search_bar .Date_filter {
+  border: 1px solid gray;
+}
+
+.Search_bar .Time_interval_filter {
+  border: 1px solid gray;
+}
+
+.Report_container {
+  height: 85vh;
+  padding: 24px;
+}
